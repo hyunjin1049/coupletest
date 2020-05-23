@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style
+* 	Template Style 
 *
 * ======================================================= */
 body {
@@ -296,13 +296,11 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-cover {
-  height: 100vh;
+  height: 900px;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
   width: 100%;
-  background-image:url(images/img_bg_big.jpg);
-  background-position: top left;
 }
 .fh5co-cover .overlay {
   z-index: 0;
@@ -319,8 +317,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover {
-  height: 100vh;
-  background-image:url(images/img_bg_small.jpg);
+    height: 600px;
   }
 }
 .fh5co-cover .display-t,
@@ -332,7 +329,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .fh5co-cover .display-t,
   .fh5co-cover .display-tc {
-    height: 150vh;
+    height: 600px;
   }
 }
 .fh5co-cover.fh5co-cover-sm {
